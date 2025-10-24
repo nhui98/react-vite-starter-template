@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@import "@fontsource-variable/figtree";
+
+@theme {
+  --font-*: initial;
+  --font-figtree: "Figtree Variable", sans-serif;
+}
+
+@layer base {
+  #root {
+    @apply font-figtree h-screen w-screen bg-black text-neutral-50;
+  }
+}
