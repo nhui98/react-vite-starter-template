@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 
-import { HelloWorld } from "@/components/hello-world";
+import { ThemeToggleBtn } from "@/components/theme-toggle-btn";
 
 export const Route = createFileRoute("/")({
   component: RouteComponent,
@@ -9,7 +9,7 @@ export const Route = createFileRoute("/")({
 function RouteComponent() {
   return (
     <div>
-      <HelloWorld />
+      <ThemeToggleBtn />
     </div>
   );
 }
